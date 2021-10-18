@@ -1,0 +1,113 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html {
+ color: #222;
+ font-family: "Fira Sans", sans-serif;
+ font-size: 20px;
+ font-weight: 200;
+ text-rendering: optimizeLegibility;
+}
+body {
+  margin: 0px 0px 0px 80px;
+  background-color: #fff;
+}
+header {
+height: 60vh;
+}
+
+/* ------------NAVIGATION----------- */
+.nav {
+ display: flex;
+ justify-content:space-between;
+ margin: 60px 0px;
+ align-items: center;
+}
+
+.logo p {
+ font-size: 30px;
+ font-weight: 500;
+ letter-spacing: 3px;
+}
+
+.menu{
+ display: flex;
+ padding-right: 150;
+}
+
+.menu .search{
+ margin-right:400px;
+}
+
+/* --------------HERO SECTION--------------- */
+.hero {
+ margin: 5% 0;
+}
+.hero-text {
+ font-size: 64px;
+ font-weight: 500;
+ text-transform: capitalize;
+ margin-top: 15px;
+ margin-bottom: 10px;
+ word-spacing: 1px;
+ /* width: 35%; */
+}
+.hero-description {
+ font-size: 16px;
+ font-weight: 350;
+ width: 60%;
+ color:#222;
+ margin-bottom:60px;
+ line-height: 24px;
+ /* width: 35%; */
+ word-spacing: 1px;
+}
+
+/* -----------BUTTON-------------- */
+.button{
+ text-decoration: none;
+ background-color: #4737ff;
+ color: #fff;
+ padding: 16 40px;
+ font-size: 12px;
+ font-weight: 400;
+ letter-spacing: 4px;
+ margin-bottom: 30px;
+}
+
+.button:hover,
+.button:active{
+ background-color:rgba(72, 55, 255, 0.9);
+ color: #fff;
+ padding: 16 40px;
+ font-size: 12px;
+ font-weight: 400;
+ letter-spacing: 4px;
+}
+
+/* -----------VIDEO------------- */
+
+header{
+ display: flex;
+ flex-direction: row;
+}
+
+.counter{
+ margin-top: 15%;
+}
+.right{
+ display: flex;
+ justify-content: right;
+}
+.placeholder{
+ width: 600px;
+ height: 100vh;
+ position: relative;
+}
+.video{
+ position: absolute;
+ right: 260;
+ bottom: -50;
+}
